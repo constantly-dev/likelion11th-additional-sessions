@@ -4,10 +4,11 @@ import reset from 'styled-reset';
 const GlobalStyle = createGlobalStyle`
     ${reset};
     body{
-        padding: 0;
+        padding: 10px;
         margin: 0;
         font-family: 'Noto Sans KR', sans-serif;
-        background-color: #F6F8FC;
+        background-color: #E0E0E0;
+        
     };
     a{
         text-decoration: none;
@@ -17,6 +18,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     input, textarea {
+      border: none;
       -moz-user-select: auto;
       -webkit-user-select: auto;
       -ms-user-select: auto;
